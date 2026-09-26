@@ -96,8 +96,7 @@ function ajouterCandidat() {
     candidat.nom = prompt("Entrez le nom :");
     candidat.prenom = prompt("Entrez le prénom :");
     candidat.partiPolitique = prompt("Nom du parti politique / indépendant(e) :");
-    if(partiPolitique =""){
-        partiPolitique="indépendant(e)"
+
     }
     candidat.age = Number(prompt("Entrez l'âge :"));
 
