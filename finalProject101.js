@@ -1,7 +1,7 @@
  const prompt = require("prompt-sync")(); 
  let candidats =[];
  let choix;
-
+do {
     console.log(`
 *******************************************
         Gestion des élections
@@ -17,7 +17,7 @@
 9- Quitter
 **********************************************
 `);
-do {
+
 
     choix = prompt("Votre choix : ");
 
